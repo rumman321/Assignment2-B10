@@ -1,0 +1,34 @@
+
+@media screen and (max-width:576px) {
+    .nav-items{
+    
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    .header-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-content {
+        width: 100%;
+    }
+    .header-content p{
+        width: 70%;
+     }
+    .header-img{
+        width: 100%;
+     
+    }
+    .btn-container{
+        display: flex;
+    }
+    .header-content button{
+        width: 200px;
+        padding: 15px 30px;
+        
+     }
+
+}
