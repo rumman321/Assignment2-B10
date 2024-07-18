@@ -98,4 +98,93 @@ header{
 .header-img img{
     width: 349px;
     height: 580px;
+    
 }
+
+
+.red{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+    
+}
+.blur-1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    width: 200px;
+    height: 90px;
+    border-radius: 10px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.234);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 220px;
+    right: 270px;
+
+}
+
+
+/* main body style */
+main{
+    background-color: #111111;
+}
+
+/* change-habit section style */
+
+
+.change-habit{
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.change-title{
+    
+    text-align: center;
+
+}
+.change-title h1{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.change-title p{
+    color: rgba(255, 255, 255, 0.511);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.habir-cards-containes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.habit-card{
+    width: 230px;
+    text-align: center;
+}
+.habit-card img{
+    width: 200px;
+    border-radius: 50%;
+
+}
+.habit-card h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+    font-weight: 600;
+}
+.habit-card p{
+    color: rgba(255, 255, 255, 0.511);
+}
+
+
+
+
