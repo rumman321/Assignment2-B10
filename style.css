@@ -218,8 +218,8 @@ main{
 .run-content p{
     margin-top: 20PX;
     color: rgba(255, 255, 255, 0.511);
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 600;
  
 }
 .run-content button{

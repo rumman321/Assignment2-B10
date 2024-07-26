@@ -41,5 +41,23 @@
        align-items: center;
        gap: 40px;
     }
+    .run-container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        
+         
+     }
+
+     .run-content{
+        text-align: center;
+        
+       }
+
+       .run-content button{
+        width: 80%;
+        
+       }
 
 }
