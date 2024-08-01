@@ -242,3 +242,118 @@ main{
    
     border-radius: 10px;
 }
+
+/* bmi-calculate section styles */
+
+.bmi-title{
+    text-align: center;
+}
+.bmi-title h1{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+
+}
+.bmi-title p{
+    margin-top: 20PX;
+    margin-bottom: 80px;
+    color: rgba(255, 255, 255, 0.511);
+    font-size: 15px;
+    font-weight: 600;
+}
+.bmi-calculate{
+
+    
+    background-color: #222222;
+}
+
+.bmi-container{
+    width: 90%;
+    margin: 0 auto;
+   
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+.bmi-chart{
+    align-items: center;
+}
+.bmi-chart h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 50px;
+}
+.bmi-chart table{
+    border-collapse: collapse;
+    
+}
+.bmi-chart td{
+    border: 1px solid white;
+    padding: 20px 30px;
+    color: rgba(255, 255, 255, 0.511);
+    font-size: 15px;
+    
+
+}
+.bmi-chart th{
+    border: 1px solid white;
+    padding: 20px 30px;
+    color: white;
+    font-size: 15px;
+}
+
+.Calculator{
+    width: 50%;
+}
+.Calculator h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.Calculator p{
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: rgba(255, 255, 255, 0.511);
+    font-size: 15px;
+}
+
+.input-bmi {
+    margin-top: 20px;
+}
+.input-bmi input{
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    width: 250px;
+    padding: 15px 40px;
+}
+/* .select input{
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    width: 85%;
+    padding: 15px 40px;
+} */
+.select select{
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    width: 97%;
+    padding: 15px 40px;
+    color: rgba(255, 255, 255, 0.511);
+    
+}
+.Calculator button{
+ margin-top: 50px;
+ border-radius: 40px;
+ border: none;
+ color: white;
+ background-color: orangered;
+ height: 50px ;
+ width: 220px;
+}
