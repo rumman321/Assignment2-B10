@@ -60,4 +60,30 @@
         
        }
 
+       .bmi-container{
+        flex-direction: column;
+       
+    }
+
+    .bmi-chart{
+        width: 80%;
+    }
+    .bmi-chart table{
+        width: 110%;
+        text-align: center;
+        
+    }
+    .Calculator{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .input-bmi {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+    }
+    .select select{
+
+        width: 106%;
+    }    
 }
