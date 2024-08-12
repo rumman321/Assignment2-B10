@@ -13,7 +13,7 @@
         width: 100%;
     }
     .header-content {
-        width: 100%;
+        width: 90%;
     }
     .header-content p{
         width: 70%;
@@ -32,10 +32,14 @@
      }
 
      .blur-1{
-        bottom: -118px;
-        left: 9px;
+        bottom: -227px;
+        left: 100px;
+        width: 171px;
+        height: 70px;
      }
-
+     .change-title p{
+        margin-top: 25px;
+    }
      .habir-cards-containes{
        flex-direction: column;
        align-items: center;
@@ -64,7 +68,10 @@
         flex-direction: column;
        
     }
-
+    .bmi-title{
+        width: 90%;
+        margin: 0 auto;
+    }
     .bmi-chart{
         width: 80%;
     }
@@ -85,5 +92,33 @@
     .select select{
 
         width: 106%;
-    }    
+    }  
+
+    .trainer-title{
+        
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 90px;
+        margin-bottom: 70px;
+    }
+    .trainer-title p{
+    
+        margin-top: 25px;
+    }
+    .trainer-box{
+     
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .child1 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-container{
+  
+        flex-direction: column;
+    }
+    
+    
 }
