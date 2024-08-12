@@ -127,6 +127,23 @@ header{
     right: 270px;
 
 }
+.blur-2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    width: 163px;
+    height: 81px;
+    border-radius: 10px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.234);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 406px;
+    right: 70px;
+
+}
 
 
 /* main body style */

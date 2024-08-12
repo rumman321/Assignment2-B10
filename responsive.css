@@ -39,6 +39,12 @@
         width: 171px;
         height: 70px;
      }
+     .blur-2{
+        width: 150px;
+        height: 70px;
+        bottom: -10px;
+        left: 300px;
+     }
      .change-title p{
         margin-top: 25px;
     }
