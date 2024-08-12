@@ -7,6 +7,8 @@
 
     .hamburger{
         display: block;
+        color: white;
+        font-size: 30px;
     }
     .header-container{
         flex-direction: column;
@@ -114,11 +116,24 @@
         width: 100%;
         height: 100%;
     }
-
+    footer{
+    
+        
+        padding-top: 50px;
+    }
     .footer-container{
   
         flex-direction: column;
+        gap: 50px;
     }
     
-    
+    .right-content{
+        width: 90%;
+        
+    }
+    .left-content{
+        width: 90%;
+        flex-direction: column;
+        gap: 30px;
+    }
 }

@@ -5,7 +5,7 @@
     padding: 0;
 }
 header{
-    background: linear-gradient(180deg,#111111,#777777);
+    background: linear-gradient(180deg,#111111,#777777,#111111);
     width: 100%;
     
 }
@@ -450,31 +450,24 @@ footer{
 }
 .left-content{
     width: 50%;
+    display: flex;
+    justify-content: space-between;
     
 }
-
-
-.left-content table{
-    border-collapse: collapse;
-    text-align: justify;
-    width: 100%;
+.left-content h2{
     
-}
-.left-content td{
-    
-    padding: 20px 30px;
-    color: rgba(255, 255, 255, 0.511);
-    font-size: 23px;
-    
-
-}
-.left-content th{
-    
-    padding: 20px 30px;
     color: white;
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
+.left-content p{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.511);
+    font-size: 23px;
+    
+}
+
 hr{
     width: 90%;
     
