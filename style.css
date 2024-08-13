@@ -113,13 +113,17 @@ header{
 }
 
 
-.red{
+.circle{
     background-color: red;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     
     
+}
+
+.circle i{
+    padding: 13px;
 }
 .blur-1{
     color: white;
