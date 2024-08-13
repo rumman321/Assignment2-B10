@@ -34,16 +34,16 @@
      }
 
      .blur-1{
-        bottom: -227px;
-        left: 100px;
+        bottom: 214px;
+        left: -40px;
         width: 171px;
         height: 70px;
      }
      .blur-2{
         width: 150px;
         height: 70px;
-        bottom: -10px;
-        left: 300px;
+        bottom: 433px;
+        left: 205px;
      }
      .change-title p{
         margin-top: 25px;
@@ -92,15 +92,11 @@
         width: 90%;
         margin-top: 50px;
     }
-    .input-bmi {
-        margin-top: 20px;
-        display: flex;
-        gap: 10px;
-    }
-    .select select{
 
-        width: 106%;
-    }  
+    .input-fild input{
+        padding: 12px 0 12px 5px;
+    }
+    
 
     .trainer-title{
         

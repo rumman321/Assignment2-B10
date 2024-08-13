@@ -1,4 +1,8 @@
 
+/* miama font */
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
 
 *{
     margin: 0;
@@ -64,7 +68,7 @@ header{
     width: 50%;
 }
 .header-content h1{
-    font-size: 78px;
+    font-size: 60px;
     font-weight: 900;
     color: white;
     margin-bottom: 30px;
@@ -72,6 +76,12 @@ header{
 .header-content p{
    font-size: 16px;
    color: rgba(255, 255, 255, 0.511);
+}
+
+#shape{
+    font-family: 'Miama', sans-serif;
+    font-size: 100px; 
+    font-weight: normal;                                           
 }
 .header-content button{
    width: 240px;
@@ -94,6 +104,7 @@ header{
 .header-img{
     width: 50%;
     text-align: end;
+    position: relative;
 }
 .header-img img{
     width: 349px;
@@ -123,26 +134,24 @@ header{
     background-color: rgba(0, 0, 0, 0.234);
     backdrop-filter: blur(10px);
     position: absolute;
-    bottom: 220px;
-    right: 270px;
+    bottom: 93px;
+    right: 35px;
 
 }
 .blur-2{
     color: white;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    align-items: center;
-    width: 163px;
-    height: 81px;
+   
+   text-align: start;
+   padding: 20px;
+   width: 146px;
+   height: 47px;
     border-radius: 10px;
     background: transparent;
     background-color: rgba(0, 0, 0, 0.234);
     backdrop-filter: blur(10px);
     position: absolute;
-    bottom: 406px;
-    right: 70px;
-
+    bottom: 372px;
+    right: -209px;
 }
 
 
@@ -337,34 +346,43 @@ main{
     font-size: 15px;
 }
 
-.input-bmi {
-    margin-top: 20px;
+.input-fild {
+    
+
+    text-align: start;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 12px;
 }
-.input-bmi input{
+
+.input-fild input{
+    padding: 12px 40px;
     border-radius: 8px;
     border: none;
-    background: rgba(255, 255, 255, 0.1);
-    width: 250px;
-    padding: 15px 40px;
-}
-/* .select input{
-    margin-top: 20px;
-    border-radius: 8px;
-    border: none;
-    background: rgba(255, 255, 255, 0.1);
-    width: 85%;
-    padding: 15px 40px;
-} */
-.select select{
-    margin-top: 20px;
-    border-radius: 8px;
-    border: none;
-    background: rgba(255, 255, 255, 0.1);
-    width: 97%;
-    padding: 15px 40px;
-    color: rgba(255, 255, 255, 0.511);
+    background-color: rgba(255, 255, 255, 0.1) ;
+    
     
 }
+.select-gender{
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Activity-factors{
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    width: 100%;
+    padding: 12px 40px;
+    margin-top: 12px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
 .Calculator button{
  margin-top: 50px;
  border-radius: 40px;
@@ -438,7 +456,7 @@ main{
 footer{
     
     background: #222222;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 .footer-container{
   
