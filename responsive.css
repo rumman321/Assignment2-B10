@@ -98,12 +98,11 @@
     }
     
 
-    .trainer-title{
-        
+    .trainer-title {
         width: 70%;
         margin: 0 auto;
-        margin-top: 90px;
-        margin-bottom: 70px;
+        margin-top: 60px;
+        margin-bottom: 44px;
     }
     .trainer-title p{
     
@@ -112,6 +111,10 @@
     .trainer-box{
      
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .trainer-container {
+        padding-bottom: 65px;
     }
 
     .child1 img{
